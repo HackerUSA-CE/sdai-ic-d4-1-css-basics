@@ -13,9 +13,7 @@ Next, you'll use the `yourself` branch to push yourself and learn more. Getting 
 
 You can switch branches by using this command:
 
-```
-git checkout branch-name
-```
+`git checkout branch-name`
 
 Examples:
 
