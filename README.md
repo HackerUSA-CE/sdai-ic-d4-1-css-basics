@@ -1,61 +1,95 @@
-# Basics of CSS Styling
+# Try it Together | Basics of CSS Styling
+
+## Branch Management
+These activities use several branches. After watching your instructor's initial demo, you'll need to use two branches in order. 
+
+First, you'll need to use the `together` branch to try an activity alongside your instructor. This may be very similar to the demo you saw, but you'll get to practice these skills, too.
+Next, you'll use the `yourself` branch to push yourself and learn more. Getting hands on like this teaches you a lot, but you can still ask your AI and your instructor for help.
+
+You can switch branches by using this command:
+
+```
+git checkout branch-name
+```
+
+Examples:
+
+```
+git checkout together
+```
+
+```
+git checkout yourself
+```
 
 ## ToDo list ✅
 **Attention**: When you complete a task, put an `x` in the middle of the brackets to mark it off your ToDo list.
 
-### Prepare Your Workspace
+# Applying Hexadecimal Colors and Improving Readability
 
-1. [ ] First, stop any other Codespaces you have running.
+## Apply a Hexadecimal Color
+1. [ ] Change the background color of your webpage to a hexadecimal value.
+- Open your CSS file (`styles.css`).
+- Find the `p` selector and change the color value to `#4682b4` (the hex color for steelblue).
+- Your code should look like this:
 
-### Create and Link a CSS File
+```
+p {
+  color: #4682b4;
+}
+```
 
-2. [ ] Create a new CSS file named `styles.css` and link it to your HTML file by adding the following within the `<head>` element:
+View your page in the browser – it should look the same. Be sure to troubleshoot and ask for help if needed! It’s okay for new things to be hard, you’ve got this.
 
-    ```html
-    <link rel="stylesheet" href="styles.css">
-    ```
+## Using Colorable
+2. [ ] Go [here](https://colorable.jxnblk.com/) and bookmark the page before doing anything else.
 
-    Now, your `<head>` element should look like this:
+**Note:** Make sure you bookmark the main URL [https://colorable.jxnblk.com/](https://colorable.jxnblk.com/) and not the URL with a color combination like [https://colorable.jxnblk.com/4682b4/f5f5dc](https://colorable.jxnblk.com/4682b4/f5f5dc) because the second link won’t work. You can always store your favorite hex color combinations in a note or file for use in future projects.
 
-    ```html
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Simple Web Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    ```
+3. [ ] Now, set the text color to `#4682b4` (the hex color for steelblue) and the background color to `#f5f5dc` and see what it looks like!
 
-### Change Paragraph Text Color
+This is an excellent tool to bookmark as it will make working with color combinations extremely easy. You can experiment with creating your own colors using the sliders, too.
 
-3. [ ] Change the color of all paragraph text to blue by adding the following CSS rule:
+## Improve Contrast and Readability
+Beige (`#f5f5dc`) and steelblue (`#4682b4`) have decent contrast for larger text and may be somewhat aesthetically pleasing, but they aren’t suitable for most situations.
 
-    ```css
-    p {
-        color: blue;
-    }
-    ```
+Let’s update our page to have better contrast and readability.
 
-### Set Background Color
+The quickest fix is to adjust the lightness of these elements so that one is significantly darker than the other. 
 
-4. [ ] Set a background color for the entire page by adding the following CSS rule:
+4. [ ] Since we already have a light background, let’s darken the text by using this hex color: `#004466`.
 
-    ```css
-    body {
-        background-color: lightgray;
-    }
-    ```
+    Notice how the contrast immediately improved, and the text is much easier to read and more enjoyable to look at. This improves accessibility and reduces eye strain for our visitors as well, making our site more pleasing to stay on for longer periods of time.
 
-### Adjust Heading Font Size
+## Apply Your Own Colors for Text and Background
+- If you haven’t already done so, go to Colorable and bookmark the tool before experimenting with any colors.
+- Set the text color to `#004466` and the background color to `#f5f5dc`.
+- Observe the contrast and readability of this combination. At the top of the page a number grade is given, the higher the number, the higher the contrast.
+- A number of 7.0 or higher will have great contrast for most needs.
+- Click the ‘reverse’ button and observe the change.
+- Use the sliders to experiment with new hex colors with this table as your guide.
+- It is good practice to have one color with high lightness, and one with low lightness to create adequate contrast.
+- Set a new, well-matched background-color and text color in your CSS file. Taste is subjective, so this is more about learning the process than being a designer.
+- Test your changes in the browser.
+- Troubleshoot and ask for help as necessary.
 
-5. [ ] Increase the font size of the most important heading (h1) to make it more prominent by adding the following CSS rule:
+### Table: Understanding Colorable Tool Sliders
+**Slider**
+Description
+Effect of Modifying
+Hue
+Represents the type of color (red, green, blue, etc.).
+Effect: Changes the base color. For example, sliding it will change the color from red to blue to green and so on.
+Saturation
+Represents the intensity or purity of the color.
+Effect: Increasing saturation makes the color more vivid and pure; decreasing it makes the color more muted and grayish.
+Lightness
+Represents the brightness or darkness of the color.
+Effect: Increasing lightness makes the color lighter, moving it towards white; decreasing lightness makes the color darker, moving it towards black.
 
-    ```css
-    h1 {
-        font-size: 24px;
-    }
-    ```
+### Final Check
 
-### View Changes and Troubleshoot
+[ ] Once more, let’s view the changes made to the webpage and troubleshoot any mistakes. Use AI and your instructor for suggestions and corrections if needed.
 
-6. [ ] View the changes made to the webpage and troubleshoot any mistakes. Use GitHub Copilot for suggestions and corrections if needed.
+## Congratulations, you did it!
+Now that you've gotten more hands on with CSS, you'll know some good questions to ask and areas you mgiht want to study and practice.  Great work on your successes so far!
