@@ -8,9 +8,7 @@ Next, you'll use the `yourself` branch to push yourself and learn more. Getting 
 
 You can switch branches by using this command:
 
-```
-git checkout branch-name
-```
+`git checkout branch-name`
 
 Examples:
 
@@ -62,34 +60,25 @@ The quickest fix is to adjust the lightness of these elements so that one is sig
     Notice how the contrast immediately improved, and the text is much easier to read and more enjoyable to look at. This improves accessibility and reduces eye strain for our visitors as well, making our site more pleasing to stay on for longer periods of time.
 
 ## Apply Your Own Colors for Text and Background
-- If you haven’t already done so, go to Colorable and bookmark the tool before experimenting with any colors.
-- Set the text color to `#004466` and the background color to `#f5f5dc`.
-- Observe the contrast and readability of this combination. At the top of the page a number grade is given, the higher the number, the higher the contrast.
-- A number of 7.0 or higher will have great contrast for most needs.
-- Click the ‘reverse’ button and observe the change.
+
+5. [ ] Click the ‘reverse’ button and observe the change.
 - Use the sliders to experiment with new hex colors with this table as your guide.
-- It is good practice to have one color with high lightness, and one with low lightness to create adequate contrast.
-- Set a new, well-matched background-color and text color in your CSS file. Taste is subjective, so this is more about learning the process than being a designer.
-- Test your changes in the browser.
-- Troubleshoot and ask for help as necessary.
+- It is good practice to have one color with higher lightness and one with lower lightness to create adequate contrast.
+- A number of 7.0 or higher at the top left of the page will have great contrast for most needs.
+
+6. [ ] Set a new, well-matched background-color and text color in your CSS file. Taste is subjective, so this is more about learning the process than being a designer.
+7. [ ] Test your changes in the browser. Troubleshoot and ask for help as necessary.
 
 ### Table: Understanding Colorable Tool Sliders
-**Slider**
-Description
-Effect of Modifying
-Hue
-Represents the type of color (red, green, blue, etc.).
-Effect: Changes the base color. For example, sliding it will change the color from red to blue to green and so on.
-Saturation
-Represents the intensity or purity of the color.
-Effect: Increasing saturation makes the color more vivid and pure; decreasing it makes the color more muted and grayish.
-Lightness
-Represents the brightness or darkness of the color.
-Effect: Increasing lightness makes the color lighter, moving it towards white; decreasing lightness makes the color darker, moving it towards black.
+| Slider | Description | Effect of Modifying |
+| ------------- | ------------- | ------------- | 
+| Hue | Represents the type of color (red, green, blue, etc.). | Effect: Changes the base color. For example, sliding it will change the color from red to blue to green and so on. |
+| Saturation | Represents the intensity or purity of the color. | Effect: Increasing saturation makes the color more vivid and pure; decreasing it makes the color more muted and grayish. |
+| Lightness | Represents the brightness or darkness of the color. | Effect: Increasing lightness makes the color lighter, moving it towards white; decreasing lightness makes the color darker, moving it towards black. |
 
 ### Final Check
 
-[ ] Once more, let’s view the changes made to the webpage and troubleshoot any mistakes. Use AI and your instructor for suggestions and corrections if needed.
+8. [ ] Once more, let’s view the changes made to the webpage and troubleshoot any mistakes. Use AI and your instructor for suggestions and corrections if needed.
 
 ## Congratulations, you did it!
-Now that you've gotten more hands on with CSS, you'll know some good questions to ask and areas you mgiht want to study and practice.  Great work on your successes so far!
+Now you have a powerful tool to help simplify your color choices.  Great work on your successes so far!
