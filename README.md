@@ -72,9 +72,9 @@ The quickest fix is to adjust the lightness of these elements so that one is sig
 ### Table: Understanding Colorable Tool Sliders
 | Slider | Description | Effect of Modifying |
 | ------------- | ------------- | ------------- | 
-| Hue | Represents the type of color (red, green, blue, etc.). | Effect: Changes the base color. For example, sliding it will change the color from red to blue to green and so on. |
-| Saturation | Represents the intensity or purity of the color. | Effect: Increasing saturation makes the color more vivid and pure; decreasing it makes the color more muted and grayish. |
-| Lightness | Represents the brightness or darkness of the color. | Effect: Increasing lightness makes the color lighter, moving it towards white; decreasing lightness makes the color darker, moving it towards black. |
+| Hue | Represents the type of color (red, green, blue, etc.). | **Effect**: Changes the base color. For example, sliding it will change the color from red to blue to green and so on. |
+| Saturation | Represents the intensity or purity of the color. | **Effect**: Increasing saturation makes the color more vivid and pure; decreasing it makes the color more muted and grayish. |
+| Lightness | Represents the brightness or darkness of the color. | **Effect**: Increasing lightness makes the color lighter, moving it towards white; decreasing lightness makes the color darker, moving it towards black. |
 
 ### Final Check
 
