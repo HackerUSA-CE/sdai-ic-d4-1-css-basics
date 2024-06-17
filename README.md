@@ -1,10 +1,9 @@
 # Try it Together | Basics of CSS Styling
 
 ## Branch Management
-These activities use several branches. After watching your instructor's initial demo, you'll need to use two branches in order. 
+These activities use several branches. Now that you've seen the demo and tackled the challenges in the `together` branch, it's time to go `solo`, push yourself, and learn more. 
 
-First, you'll need to use the `together` branch to try an activity alongside your instructor. This may be very similar to the demo you saw, but you'll get to practice these skills, too.
-Next, you'll use the `yourself` branch to push yourself and learn more. Getting hands on like this teaches you a lot, but you can still ask your AI and your instructor for help.
+Getting hands on like this teaches you a lot, but you can still ask your AI and your instructor for help.
 
 You can switch branches by using this command:
 
@@ -17,7 +16,7 @@ git checkout together
 ```
 
 ```
-git checkout yourself
+git checkout solo
 ```
 
 ## ToDo list ✅
