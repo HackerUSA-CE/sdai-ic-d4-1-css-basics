@@ -1,15 +1,16 @@
 # Try it Together | Basics of CSS Styling
 
 ## Forking Repositories
-When you fork a repo, there is a box checked by default to only copy the main branch. You will want to uncheck this box so that you get all the branches you need. 
+When you fork a repo, there is a box checked by default to only copy the main branch. You will want to uncheck this box so that you get all the branches you need at once. 
 
 If you forget to uncheck that box, you can still get access to the other branches you need. You'll need to follow the instructions from GitHub [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch), taking special note of step 5 when you reach it.
 
 ## Branch Management
 These activities use several branches. After watching your instructor's initial demo, you'll need to use two branches in order. 
 
-First, you'll need to use the `together` branch to try an activity alongside your instructor. This may be very similar to the demo you saw, but you'll get to practice these skills, too.
-Next, you'll use the `yourself` branch to push yourself and learn more. Getting hands on like this teaches you a lot, but you can still ask your AI and your instructor for help.
+First, you'll need to use the `together` branch to try an activity alongside your instructor. This may seem very similar to the demo you saw, but this time you're getting hands on practice with these skills. 
+
+Next, you'll use the `solo` branch to push yourself and learn more. 
 
 You can switch branches by using this command:
 
@@ -22,7 +23,7 @@ git checkout together
 ```
 
 ```
-git checkout yourself
+git checkout solo
 ```
 
 ## ToDo list ✅
@@ -146,8 +147,8 @@ Now that we’ve set some basic properties and their corresponding values, let�
 CSS is a very powerful scripting language that allows us to make the most beautiful websites and applications in the world, and you've just taken your first steps with it. While it can be daunting at first and takes time to master, with knowledge and practice, its unique ability to create precise and creative visuals just might make it one of your favorite languages.
 
 ## Switch to the next branch
-Now, it's time to switch to the `yourself` branch and try to tackle an activity with the help of your AI and with your instructor's support should you have questions or run into any trouble. Do so now with the following command.
+Now, it's time to switch to the `solo` branch and try to tackle an activity with the help of your AI and with your instructor's support should you have questions or run into any trouble. Do so now with the following command.
 
 ```
-git checkout yourself
+git checkout solo
 ```
